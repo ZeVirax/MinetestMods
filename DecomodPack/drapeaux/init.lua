@@ -6,7 +6,7 @@
 -- Pied du drapeau
 
 minetest.register_node("drapeaux:pied_drap",{
-  description = 'Pied Drapeau FR ',
+  description = 'Pied Drapeau ',
   paramtype = 'light',
   paramtype2 = 'facedir',
   is_ground_content = true,
@@ -33,7 +33,7 @@ selection_box = {
 -- Embout du Drapeau
 
 minetest.register_node("drapeaux:embout_drap",{
-      description = 'Embout Drapeau FR',
+      description = 'Embout Drapeau ',
 	drawtype="nodebox",
 	paramtype = "light",
      paramtype2 = 'facedir',

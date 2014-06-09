@@ -1,5 +1,5 @@
 minetest.register_node("playcube:playcube",{
-  description = 'Blocs Decoration',
+  description = 'Console de Salon PlayCube',
   paramtype = 'light',
   paramtype2 = 'facedir',
   is_ground_content = true,

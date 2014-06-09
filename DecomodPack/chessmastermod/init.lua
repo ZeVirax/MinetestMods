@@ -7,7 +7,7 @@
 -- Plateau
 
 minetest.register_node("chessmastermod:bordEchec",{
-  description = 'Echec Plateau ',
+  description = 'Jeu Echec Plateau ',
   paramtype = 'light',
   paramtype2 = 'facedir',
   is_ground_content = true,
@@ -31,7 +31,7 @@ selection_box = {
 })
 
 minetest.register_node("chessmastermod:plateauNoir",{
-  description = 'Echec Plateau ',
+  description = 'Jeu Echec Plateau ',
   paramtype = 'light',
   paramtype2 = 'facedir',
   is_ground_content = true,
@@ -55,7 +55,7 @@ selection_box = {
 })
 
 minetest.register_node("chessmastermod:plateauBlanc",{
-  description = 'Echec Plateau ',
+  description = 'Jeu Echec Plateau ',
   paramtype = 'light',
   paramtype2 = 'facedir',
   is_ground_content = true,
@@ -82,7 +82,7 @@ selection_box = {
 -- Pieces
 
 minetest.register_node("chessmastermod:pionNoir",{
-  description = 'Echec Piece ',
+  description = 'Echec PionNoir ',
   paramtype = 'light',
   paramtype2 = 'facedir',
   is_ground_content = true,
@@ -117,7 +117,7 @@ selection_box = {
 
 
 minetest.register_node("chessmastermod:pionBlanc",{
-  description = 'Echec Piece ',
+  description = 'Echec PionBlanc ',
   paramtype = 'light',
   paramtype2 = 'facedir',
   is_ground_content = true,
@@ -151,7 +151,7 @@ selection_box = {
 })
 
 minetest.register_node("chessmastermod:tourBlanc",{
-  description = 'Echec Piece ',
+  description = 'Echec TourBlanc ',
   paramtype = 'light',
   paramtype2 = 'facedir',
   is_ground_content = true,
@@ -189,7 +189,7 @@ selection_box = {
 })
 
 minetest.register_node("chessmastermod:tourNoir",{
-  description = 'Echec Piece ',
+  description = 'Echec TourNoir ',
   paramtype = 'light',
   paramtype2 = 'facedir',
   is_ground_content = true,
@@ -227,7 +227,7 @@ selection_box = {
 })
 
 minetest.register_node("chessmastermod:fouNoir",{
-  description = 'Echec Piece ',
+  description = 'Echec FouNoir ',
   paramtype = 'light',
   paramtype2 = 'facedir',
   is_ground_content = true,
@@ -264,7 +264,7 @@ selection_box = {
 })
 
 minetest.register_node("chessmastermod:fouBlanc",{
-  description = 'Echec Piece ',
+  description = 'Echec FouBlanc ',
   paramtype = 'light',
   paramtype2 = 'facedir',
   is_ground_content = true,
@@ -299,7 +299,7 @@ selection_box = {
 })
 
 minetest.register_node("chessmastermod:cavalierBlanc",{
-  description = 'Echec Piece ',
+  description = 'Echec CavalierBlanc ',
   paramtype = 'light',
   paramtype2 = 'facedir',
   is_ground_content = true,
@@ -338,7 +338,7 @@ selection_box = {
 })
 
 minetest.register_node("chessmastermod:cavalierNoir",{
-  description = 'Echec Piece ',
+  description = 'Echec CavalierNoir ',
   paramtype = 'light',
   paramtype2 = 'facedir',
   is_ground_content = true,
@@ -377,7 +377,7 @@ selection_box = {
 })
 
 minetest.register_node("chessmastermod:reineNoir",{
-  description = 'Echec Piece ',
+  description = 'Echec ReineNoir ',
   paramtype = 'light',
   paramtype2 = 'facedir',
   is_ground_content = true,
@@ -420,7 +420,7 @@ selection_box = {
 
 
 minetest.register_node("chessmastermod:reineBlanc",{
-  description = 'Echec Piece ',
+  description = 'Echec ReineBlanc ',
   paramtype = 'light',
   paramtype2 = 'facedir',
   is_ground_content = true,
@@ -461,7 +461,7 @@ selection_box = {
 })
 
 minetest.register_node("chessmastermod:roiBlanc",{
-  description = 'Echec Piece ',
+  description = 'Echec RoiBlanc ',
   paramtype = 'light',
   paramtype2 = 'facedir',
   is_ground_content = true,
@@ -503,7 +503,7 @@ selection_box = {
 })
 
 minetest.register_node("chessmastermod:roiNoir",{
-  description = 'Echec Piece ',
+  description = 'Echec RoiNoir ',
   paramtype = 'light',
   paramtype2 = 'facedir',
   is_ground_content = true,
