@@ -16,9 +16,7 @@ _____________________________________________________
 
 Pack contenant plusieurs Blocs & Nodes de décoration .
 
-- Mod_poele
-- Mod_Cuisine
-- Mod_Decoturbogus
+- Mod_Tvdeco
 - Mod_Cup
 - Mod_ChessMaster
 - Mod_Computer
@@ -33,7 +31,7 @@ Pack contenant plusieurs Blocs & Nodes de décoration .
 
 ------------------------------------------------------
 
-Licence (Cuisine,Decoturbogus,poele) 
+Licence (Mod_Tvdeco) 
 -- code licence gpl v2 ou superieur
 -- graphisme sous licence CC-BY-NC-SA
 
