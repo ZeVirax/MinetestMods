@@ -14,7 +14,7 @@ minetest.register_node("etagere:eta",{
 
 selection_box = {
     type = 'fixed',
-    fixed = { -0.5, -0.5, -0.5, 0.5, 0.5, 0.5 }
+    fixed = { -0.5, 0.4125, -0.125, 0.5, 0.5, 0.5 }
   },
 
 	node_box = {
