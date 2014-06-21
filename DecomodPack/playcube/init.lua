@@ -1,3 +1,8 @@
+-- Mod_PlayCube
+-- Code Libre Ze.
+-- -= Lua Minetest Steinheim =-
+
+
 minetest.register_node("playcube:playcube",{
   description = 'Console de Salon PlayCube',
   paramtype = 'light',
@@ -17,7 +22,7 @@ minetest.register_node("playcube:playcube",{
 
 selection_box = {
     type = 'fixed',
-    fixed = { -0.5, -0.5, -0.5, 0.5, 0.5, 0.5}
+    fixed = { -0.5, -0.5, 0, 0.125, -0.375, 0.5}
   },
 
 	node_box = {
@@ -40,3 +45,4 @@ minetest.register_craft({
 	}
 })
 
+-- http://steinheim.vraiforum.com/index.php
