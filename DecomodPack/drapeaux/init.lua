@@ -17,7 +17,7 @@ minetest.register_node("drapeaux:pied_drap",{
   },
 selection_box = {
     type = 'fixed',
-    fixed = { -1/3, -1/3, -1/3, 1/3, 1/3, 1/3 }
+    fixed = { 0, -0.4375, -0.0625, 0.0625, 0.5, 0}
   },
 
 	node_box = {
@@ -45,7 +45,7 @@ minetest.register_node("drapeaux:embout_drap",{
 
     selection_box = {
     type = 'fixed',
-    fixed = { -1/3, -1/3, -1/3, 1/3, 1/3, 1/3 }
+    fixed = { 0, -0.5, -0.0625, 0.0625, 0.5, 0 }
   },
 
 
@@ -78,7 +78,7 @@ minetest.register_node("drapeaux:drapeau_drap",{
   },
 selection_box = {
     type = 'fixed',
-    fixed = { -1/3, -1/3, -1/3, 1/3, 1/3, 1/3 }
+    fixed = { 0, 0, -0.0625, 0.5, 0.5, 0 }
   },
 
 	node_box = {
