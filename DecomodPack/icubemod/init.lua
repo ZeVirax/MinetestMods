@@ -21,7 +21,7 @@ minetest.register_node("icubemod:telIcube",{
 
 selection_box = {
     type = 'fixed',
-    fixed = { -1/3, -1/3, -1/3, 1/3, 1/3, 1/3 }
+    fixed = { -0.125, -0.5, -0.3125, 0.125, -0.4375, 0.125}
   },
 
 	node_box = {
