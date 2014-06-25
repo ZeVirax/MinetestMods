@@ -28,10 +28,8 @@ Pack contenant plusieurs Blocs & Nodes de décoration .
 - Mod_Icube
 - Mod_Playcube
 - Mod_Etagere
-
+- Mod_Colonne
 ------------------------------------------------------
 
-Licence (Mod_Tvdeco) 
--- code licence gpl v2 ou superieur
--- graphisme sous licence CC-BY-NC-SA
-
+Licence (Mod_Tvdeco; Mod_Colonne) 
+Sous licences !
