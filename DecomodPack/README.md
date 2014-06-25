@@ -16,6 +16,7 @@ _____________________________________________________
 
 Pack contenant plusieurs Blocs & Nodes de décoration .
 
+- Mod_Colonne
 - Mod_Tvdeco
 - Mod_Cup
 - Mod_ChessMaster
@@ -28,7 +29,7 @@ Pack contenant plusieurs Blocs & Nodes de décoration .
 - Mod_Icube
 - Mod_Playcube
 - Mod_Etagere
-- Mod_Colonne
+
 ------------------------------------------------------
 
 Licence (Mod_Tvdeco; Mod_Colonne) 
