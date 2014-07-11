@@ -93,16 +93,5 @@ minetest.register_node('computer:pcsteinheim', {
 	}
 })
 
--- REGISTER CRAFT
-
-minetest.register_craft({
-	output = 'computer:pcsteinheim',
-	recipe = {
-		{'default:stone', 'default:stone', 'default:stone'},
-     {'default:gravel', 'default:gravel', 'default:gravel'},
-                 {"default:steelblock", "default:steelblock", "default:steelblock"}
-	}
-})
-
 
 -- http://steinheim.vraiforum.com/index.php

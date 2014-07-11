@@ -380,9 +380,9 @@ minetest.register_craft({
 minetest.register_craft({
 	output = 'colonne:colonne_fer',
 	recipe = {
-		{'', 'default:steel_block', ''},
-		{'', 'default:steel_block', ''},
-		{'', 'default:steel_block', ''},
+		{'', 'default:steelblock', ''},
+		{'', 'default:steelblock', ''},
+		{'', 'default:steelblock', ''},
 	}	
 })
 

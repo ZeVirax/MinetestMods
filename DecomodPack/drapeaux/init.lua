@@ -91,36 +91,4 @@ selection_box = {
 })
 
 
-
---REGISTRER_CRAFT
-
-
-minetest.register_craft({
-	output = 'drapeaux:pied_drap',
-	recipe = {
-		{'default:wood', '', 'default:wood'},
-     {'default:wood', 'default:stone', 'default:wood'},
-                {'', 'default:wood', ''}
-	}
-})
-
-
-minetest.register_craft({
-	output = 'drapeaux:embout_drap',
-	recipe = {
-		{'default:wood', '', 'default:wood'},
-     {'default:wood', 'default:stone', 'default:wood'},
-                {'', 'default:wood', ''}
-	}
-})
-
-minetest.register_craft({
-	output = 'drapeaux:drapeau_drap',
-	recipe = {
-		{'default:wood', '', 'default:wood'},
-     {'default:wood', 'default:stone', 'default:wood'},
-                {'', 'default:wood', ''}
-	}
-})
-
 -- http://steinheim.vraiforum.com/index.php

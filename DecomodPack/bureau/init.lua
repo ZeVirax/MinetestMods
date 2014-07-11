@@ -40,15 +40,4 @@ minetest.register_node('bureau:bureau', {
 })
 
 
--- REGISTER CRAFT
-
-minetest.register_craft({
-	output = 'bureau:bureau',
-	recipe = {
-		{'default:wood', '', 'default:wood'},
-     {'default:wood', 'default:stone', 'default:wood'},
-                {'', 'default:wood', ''}
-	}
-})
-
 -- http://steinheim.vraiforum.com/index.php
