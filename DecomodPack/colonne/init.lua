@@ -1,7 +1,14 @@
 -- Mod_Colonnes 
 -- -= Lua Minetest Steinheim =-
--- Mod créer par Ataron 
--- Licence : Libre de droits
+-- Mod crï¿½er par Ataron 
+-- Licence : (Colonne, ajoute des colonnes au jeu Minetest. Add columns to Minetest) Copyright (C) (2014) (Ataron)
+--[[
+Ce programme est libre, vous pouvez le redistribuer et/ou le modifier selon les termes de la Licence Publique Gï¿½nï¿½rale GNU publiï¿½e par la Free Software Foundation (version 3 ou bien toute autre version ultï¿½rieure choisie par vous).
+
+Ce programme est distribuï¿½ car potentiellement utile, mais SANS AUCUNE GARANTIE, ni explicite ni implicite, y compris les garanties de commercialisation ou d'adaptation dans un but spï¿½cifique. Reportez-vous ï¿½ la Licence Publique Gï¿½nï¿½rale GNU pour plus de dï¿½tails.
+
+Vous devez avoir reï¿½u une copie de la Licence Publique Gï¿½nï¿½rale GNU en mï¿½me temps que ce programme ; si ce n'est pas le cas, ï¿½crivez ï¿½ la Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307, ï¿½tats-Unis ou regardez : <http://www.gnu.org/licenses/>. 
+]]--
 
 --==============--
 -- REGISTER NODE --
@@ -13,7 +20,7 @@ minetest.register_node('colonne:colonne_bois', {
   paramtype = 'light',
   paramtype2 = 'facedir',
   is_ground_content = true,
-  groups = {choppy=2,oddly_breakable_by_hand=2,flammable=3,wood=1},
+  groups = {choppy=2},
   drawtype = 'nodebox',
   tiles = {
     'default_wood.png',
@@ -43,7 +50,7 @@ minetest.register_node('colonne:colonne_junglewood', {
   paramtype = 'light',
   paramtype2 = 'facedir',
   is_ground_content = true,
-  groups = {choppy=2,oddly_breakable_by_hand=2,flammable=3,wood=1},
+  groups = {choppy=2},
   drawtype = 'nodebox',
   tiles = {
     'default_junglewood.png',
@@ -73,7 +80,7 @@ minetest.register_node('colonne:colonne_cobble', {
   paramtype = 'light',
   paramtype2 = 'facedir',
   is_ground_content = true,
-  groups = {cracky=3, stone=2},
+  groups = {cracky=3},
   drawtype = 'nodebox',
   tiles = {
     'default_cobble.png',
@@ -103,7 +110,7 @@ minetest.register_node('colonne:colonne_pierre', {
   paramtype = 'light',
   paramtype2 = 'facedir',
   is_ground_content = true,
-  groups = {cracky=3, stone=1},
+  groups = {cracky=3},
   drawtype = 'nodebox',
   tiles = {
     'default_stone.png',
@@ -133,7 +140,7 @@ minetest.register_node('colonne:colonne_fer', {
   paramtype = 'light',
   paramtype2 = 'facedir',
   is_ground_content = true,
-  groups = {cracky=1,level=2},
+  groups = {cracky=2},
   drawtype = 'nodebox',
   tiles = {
     'default_steel_block.png',
@@ -163,7 +170,7 @@ minetest.register_node('colonne:colonne_obsidienne', {
   paramtype = 'light',
   paramtype2 = 'facedir',
   is_ground_content = true,
-  groups = {cracky=1,level=2},
+  groups = {cracky=2},
   drawtype = 'nodebox',
   tiles = {
     'default_obsidian.png',
@@ -193,7 +200,7 @@ minetest.register_node('colonne:colonne_stone_brick', {
   paramtype = 'light',
   paramtype2 = 'facedir',
   is_ground_content = true,
-  groups = {cracky=2, stone=1},
+  groups = {cracky=3},
   drawtype = 'nodebox',
   tiles = {
     'default_stone_brick.png',
@@ -223,7 +230,7 @@ minetest.register_node('colonne:colonne_sandstone', {
   paramtype = 'light',
   paramtype2 = 'facedir',
   is_ground_content = true,
-  groups = {crumbly=2,cracky=3},
+  groups = {cracky=3},
   drawtype = 'nodebox',
   tiles = {
     'default_sandstone.png',
@@ -253,7 +260,7 @@ minetest.register_node('colonne:colonne_sandstone_brick', {
   paramtype = 'light',
   paramtype2 = 'facedir',
   is_ground_content = true,
-  groups = {cracky=2},
+  groups = {cracky=3},
   drawtype = 'nodebox',
   tiles = {
     'default_sandstone_brick.png',
@@ -283,7 +290,7 @@ minetest.register_node('colonne:colonne_desert_stone_brick', {
   paramtype = 'light',
   paramtype2 = 'facedir',
   is_ground_content = true,
-  groups = {cracky=2, stone=1},
+  groups = {cracky=3},
   drawtype = 'nodebox',
   tiles = {
     'default_desert_stone_brick.png',
@@ -313,40 +320,10 @@ minetest.register_node('colonne:colonne_desert_stone', {
   paramtype = 'light',
   paramtype2 = 'facedir',
   is_ground_content = true,
-  groups = {cracky=3, stone=1},
+  groups = {cracky=3},
   drawtype = 'nodebox',
   tiles = {
     'default_desert_stone.png',
-  
-  },
-  selection_box = {
-    type = 'fixed',
-    fixed = { -0.5, -0.5, -0.5, 0.5, 0.5, 0.5 }
-  },
-
-node_box = {
-		type = "fixed",
-		fixed = {
-			{-0.5, -0.5, -0.0625, 0.5, 0.5, 0.0625}, -- Centre
-			{-0.4375, -0.5, 0.0625, 0.4375, 0.5, 0.1875}, -- 1_Haut
-			{-0.4375, -0.5, -0.1875, 0.4375, 0.5, -0.0625}, -- 1_Bas
-			{-0.3125, -0.5, 0.1875, 0.3125, 0.5, 0.3125}, -- 2_Haut
-			{-0.3125, -0.5, -0.3125, 0.3125, 0.5, -0.1875}, -- 2_Bas
-			{-0.1875, -0.5, -0.4375, 0.1875, 0.5, -0.3125}, -- 3_Bas
-			{-0.1875, -0.5, 0.3125, 0.1875, 0.5, 0.4375}, -- 3_Haut
-		}
-	}
-})
-
-minetest.register_node('colonne:colonne_desert_cobble', {
-  description = 'Colonne en desert cobblestone',
-  paramtype = 'light',
-  paramtype2 = 'facedir',
-  is_ground_content = true,
-  groups = {cracky=3, stone=2},
-  drawtype = 'nodebox',
-  tiles = {
-    'default_desert_cobble.png',
   
   },
   selection_box = {
@@ -469,14 +446,5 @@ minetest.register_craft({
 		{'', 'default:desert_stone', ''},
 		{'', 'default:desert_stone', ''},
 		{'', 'default:desert_stone', ''},
-	}	
-})
-
-minetest.register_craft({
-	output = 'colonne:colonne_desert_cobble',
-	recipe = {
-		{'', 'default:desert_cobble', ''},
-		{'', 'default:desert_cobble', ''},
-		{'', 'default:desert_cobble', ''},
 	}	
 })
