@@ -1,0 +1,6 @@
+default
+moreblocks
+decoblocs
+decocraftitems
+homedecor
+mesecons
