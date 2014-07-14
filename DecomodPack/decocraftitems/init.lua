@@ -15,9 +15,9 @@ minetest.register_craftitem("decocraftitems:carte_mere", {
 
 -- Boîtier d'alimentation
 
-minetest.register_craftitem("decocraftitems:alimentation", {
-    description = "Un boîtier d'alimentation",
-    inventory_image = "alimentation.png",
+minetest.register_craftitem("decocraftitems:OperatingSystem", {
+    description = "Operating System Steinheim",
+    inventory_image = "OSSteinheim.png",
 })
 
 -- Plaque d'acier

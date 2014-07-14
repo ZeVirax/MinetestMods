@@ -11,7 +11,7 @@ minetest.register_craft({
 	output = "computer:pcsteinheim",
 	recipe = {
 		{"decocraftitems:coin_acier", "decocraftitems:plaque_acier", "decocraftitems:coin_acier"},
-		{"decocraftitems:glass_screen", "decocraftitems:carte_mere", "decocraftitems:alimentation"},
+		{"decocraftitems:glass_screen", "decocraftitems:carte_mere", "decocraftitems:OperatingSystem"},
 		{"decocraftitems:coin_acier", "decocraftitems:plaque_acier", "decocraftitems:coin_acier"},
 	},
 })
@@ -28,7 +28,7 @@ minetest.register_craft({
 
 
 minetest.register_craft({
-	output = "decocraftitems:alimentation",
+	output = "decocraftitems:OperatingSystem",
 	recipe = {
 		{"default:copper_ingot","decocraftitems:plaque_acier","decocraftitems:coin_acier"},
 		{"default:copper_ingot","mesecons_luacontroller:luacontroller0000","group:mesecon_conductor_craftable"},
@@ -119,9 +119,9 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "decoblocs:kubik",
 	recipe = {
-		{"dye:red", "dye:orange", "dye:yellow"},
-		{"dye:green", "dye:white", "dye:blue"},
-		{"dye:orange", "dye:white", "dye:green"},
+		{"moreblocks:micro_stone", "stairs:slab_stone", "moreblocks:micro_stone"},
+		{"default:stone", "default:stone", "default:stone"},
+		{"moreblocks:micro_stone", "stairs:slab_stone", "moreblocks:micro_stone"},
 	},
 })
 
