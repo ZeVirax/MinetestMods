@@ -484,51 +484,7 @@ node_box = {
 })
 
 
---REGISTER CRAFTS ( crafts a modifier )
+--REGISTER CRAFTS ( Give Admins)
 
-minetest.register_craft({
-	output = 'modcup:coupeOr',
-	recipe = {
-		{'wool:white', 'wool:white', 'wool:white'},
-     {'default:wood', 'default:wood', 'default:wood'},
-                 {"", 'dye:grey', ""}
-	}
-})
-
-minetest.register_craft({
-	output = 'modcup:coupeArgent',
-	recipe = {
-		{'wool:white', 'wool:white', 'wool:white'},
-     {'default:wood', 'default:wood', 'default:wood'},
-                 {"", 'dye:grey', ""}
-	}
-})
-
-minetest.register_craft({
-	output = 'modcup:coupeBronze',
-	recipe = {
-		{'wool:white', 'wool:white', 'wool:white'},
-     {'default:wood', 'default:wood', 'default:wood'},
-                 {"", 'dye:grey', ""}
-	}
-})
-
-minetest.register_craft({
-	output = 'modcup:medaille',
-	recipe = {
-		{'wool:white', 'wool:white', 'wool:white'},
-     {'default:wood', 'default:wood', 'default:wood'},
-                 {"", 'dye:grey', ""}
-	}
-})
-
-minetest.register_craft({
-	output = 'modcup:trophee',
-	recipe = {
-		{'wool:white', 'wool:white', 'wool:white'},
-     {'default:wood', 'default:wood', 'default:wood'},
-                 {"", 'dye:grey', ""}
-	}
-})
 
 -- http://steinheim.vraiforum.com/index.php

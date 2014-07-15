@@ -40,5 +40,5 @@ Pack contenant plusieurs Blocs & Nodes de décoration .
 
 ------------------------------------------------------
 
-(Mod_Tvdeco;Mod_Tapis;Mod_Colonne) sous licence !
+(Mod_Tvdeco) sous licence GNU/GPL !
 

@@ -36,13 +36,5 @@ selection_box = {
 })
 
 
-minetest.register_craft({
-	output = 'playcube:playcube',
-	recipe = {
-		{'default:wood', '', 'default:wood'},
-     {'default:wood', 'default:stone', 'default:wood'},
-                {'', 'default:wood', ''}
-	}
-})
 
 -- http://steinheim.vraiforum.com/index.php

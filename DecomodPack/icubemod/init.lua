@@ -32,11 +32,4 @@ selection_box = {
 	}
 })
 
-minetest.register_craft({
-	output = 'icubemod:telIcube',
-	recipe = {
-		{'default:wood', '', 'default:wood'},
-     {'default:wood', 'default:stone', 'default:wood'},
-                {'', 'default:wood', ''}
-	}
-})
+-- http://steinheim.vraiforum.com/index.php
