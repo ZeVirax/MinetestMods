@@ -70,12 +70,12 @@ minetest.register_node("modcup:coupeOr",{
 
   drawtype = 'nodebox',
   tiles = {
-    'or1.png',
-    'or1.png',
-    'or3.png',
-    'or3.png',
-    'or3.png',
-    'or2.png',
+    'cup_or1.png',
+    'cup_or1.png',
+    'cup_or3.png',
+    'cup_or3.png',
+    'cup_or3.png',
+    'cup_or2.png',
   },
   selection_box = {
     type = 'fixed',
@@ -164,12 +164,12 @@ minetest.register_node("modcup:coupeArgent",{
   groups = {cracky=3},
   drawtype = 'nodebox',
   tiles = {
-    'argent1.png',
-    'argent1.png',
-    'argent2.png',
-    'argent2.png',
-    'argent2.png',
-    'argent3.png',
+    'cup_argent1.png',
+    'cup_argent1.png',
+    'cup_argent2.png',
+    'cup_argent2.png',
+    'cup_argent2.png',
+    'cup_argent3.png',
   },
   selection_box = {
     type = 'fixed',
@@ -260,12 +260,12 @@ minetest.register_node("modcup:coupeBronze",{
 
   drawtype = 'nodebox',
   tiles = {
-    'bronze1.png',
-    'bronze1.png',
-    'bronze4.png',
-    'bronze4.png',
-    'bronze4.png',
-    'bronze1b.png',
+    'cup_bronze1.png',
+    'cup_bronze1.png',
+    'cup_bronze4.png',
+    'cup_bronze4.png',
+    'cup_bronze4.png',
+    'cup_bronze1b.png',
   },
   selection_box = {
     type = 'fixed',
@@ -356,12 +356,12 @@ minetest.register_node("modcup:medaille",{
 
   drawtype = 'nodebox',
   tiles = {
-    'argent1.png',
-    'argent1.png',
-    'argent2.png',
-    'argent2.png',
-    'argent2.png',
-    'medaille1b.png',
+    'cup_argent1.png',
+    'cup_argent1.png',
+    'cup_argent2.png',
+    'cup_argent2.png',
+    'cup_argent2.png',
+    'cup_medaille1b.png',
   },
 
 selection_box = {
@@ -443,12 +443,12 @@ minetest.register_node('modcup:trophee', {
 
   drawtype = 'nodebox',
   tiles = {
-    'or1.png',
-    'or1.png',
-    'or3.png',
-    'or3.png',
-    'or3.png',
-    'trophee.png',
+    'cup_or1.png',
+    'cup_or1.png',
+    'cup_or3.png',
+    'cup_or3.png',
+    'cup_or3.png',
+    'cup_trophee.png',
   },
   selection_box = {
     type = 'fixed',

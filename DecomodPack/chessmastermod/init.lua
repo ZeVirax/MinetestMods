@@ -14,7 +14,7 @@ minetest.register_node("chessmastermod:bordEchec",{
   groups = {cracky=3},
   drawtype = 'nodebox',
   tiles = {
-   'bord.png',
+   'chess_bord.png',
   },
 
 selection_box = {
@@ -38,7 +38,7 @@ minetest.register_node("chessmastermod:plateauNoir",{
   groups = {cracky=3},
   drawtype = 'nodebox',
   tiles = {
-   'plateaunoir.png',
+   'chess_plateaunoir.png',
   },
 
 selection_box = {
@@ -62,7 +62,7 @@ minetest.register_node("chessmastermod:plateauBlanc",{
   groups = {cracky=3},
   drawtype = 'nodebox',
   tiles = {
-   'plateaublanc.png',
+   'chess_plateaublanc.png',
   },
 
 selection_box = {
@@ -96,7 +96,7 @@ minetest.register_node("chessmastermod:pionNoir",{
 
   drawtype = 'nodebox',
   tiles = {
-   'pionsnoir.png',
+   'chess_pionsnoir.png',
   },
 
 selection_box = {
@@ -131,7 +131,7 @@ minetest.register_node("chessmastermod:pionBlanc",{
 
   drawtype = 'nodebox',
   tiles = {
-   'pionsblanc.png',
+   'chess_pionsblanc.png',
   },
 
 selection_box = {
@@ -165,7 +165,7 @@ minetest.register_node("chessmastermod:tourBlanc",{
 
   drawtype = 'nodebox',
   tiles = {
-   'pionsblanc.png',
+   'chess_pionsblanc.png',
   },
 
 selection_box = {
@@ -203,7 +203,7 @@ minetest.register_node("chessmastermod:tourNoir",{
 
   drawtype = 'nodebox',
   tiles = {
-   'pionsnoir.png',
+   'chess_pionsnoir.png',
   },
 
 selection_box = {
@@ -242,7 +242,7 @@ minetest.register_node("chessmastermod:fouNoir",{
 
   drawtype = 'nodebox',
   tiles = {
-   'pionsnoir.png',
+   'chess_pionsnoir.png',
   },
 
 selection_box = {
@@ -277,7 +277,7 @@ minetest.register_node("chessmastermod:fouBlanc",{
 	end,
   drawtype = 'nodebox',
   tiles = {
-   'pionsblanc.png',
+   'chess_pionsblanc.png',
   },
 
 selection_box = {
@@ -313,7 +313,7 @@ minetest.register_node("chessmastermod:cavalierBlanc",{
 
   drawtype = 'nodebox',
   tiles = {
-   'pionsblanc.png',
+   'chess_pionsblanc.png',
   },
 
 selection_box = {
@@ -352,7 +352,7 @@ minetest.register_node("chessmastermod:cavalierNoir",{
 
   drawtype = 'nodebox',
   tiles = {
-   'pionsnoir.png',
+   'chess_pionsnoir.png',
   },
 
 selection_box = {
@@ -391,7 +391,7 @@ minetest.register_node("chessmastermod:reineNoir",{
 
   drawtype = 'nodebox',
   tiles = {
-   'pionsnoir.png',
+   'chess_pionsnoir.png',
   },
 
 selection_box = {
@@ -433,7 +433,7 @@ minetest.register_node("chessmastermod:reineBlanc",{
 	end,
   drawtype = 'nodebox',
   tiles = {
-   'pionsblanc.png',
+   'chess_pionsblanc.png',
   },
 
 selection_box = {
@@ -475,7 +475,7 @@ minetest.register_node("chessmastermod:roiBlanc",{
 
   drawtype = 'nodebox',
   tiles = {
-   'pionsblanc.png',
+   'chess_pionsblanc.png',
   },
 
 selection_box = {
@@ -517,7 +517,7 @@ minetest.register_node("chessmastermod:roiNoir",{
 
   drawtype = 'nodebox',
   tiles = {
-   'pionsnoir.png',
+   'chess_pionsnoir.png',
   },
 
 selection_box = {

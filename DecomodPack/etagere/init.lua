@@ -9,7 +9,7 @@ minetest.register_node("etagere:eta",{
   groups = {cracky=3},
   drawtype = 'nodebox',
   tiles = {
-   'junglewood.png',
+   'eta_junglewood.png',
   },
 
 selection_box = {

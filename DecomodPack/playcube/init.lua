@@ -11,12 +11,12 @@ minetest.register_node("playcube:playcube",{
   groups = {cracky=3},
   drawtype = 'nodebox',
   tiles = {
-    'playcube.png',
-    'play2.png',
-    'play2.png',
-    'play2.png',
-    'play2.png',
-    'play3.png',
+    'cube_playcube.png',
+    'cube_play2.png',
+    'cube_play2.png',
+    'cube_play2.png',
+    'cube_play2.png',
+    'cube_play3.png',
   },
 
 

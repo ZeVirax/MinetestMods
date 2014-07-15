@@ -10,12 +10,12 @@ minetest.register_node("icubemod:telIcube",{
   groups = {cracky=3},
   drawtype = 'nodebox',
   tiles = {
-    'face.png',
-    'tel2.png',
-    'tel2.png',
-    'tel2.png',
-    'tel2.png',
-    'tel2.png',
+    'icube_face.png',
+    'icube_tel2.png',
+    'icube_tel2.png',
+    'icube_tel2.png',
+    'icube_tel2.png',
+    'icube_tel2.png',
   },
 
 

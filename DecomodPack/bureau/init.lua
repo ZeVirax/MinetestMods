@@ -10,12 +10,12 @@ minetest.register_node('bureau:bureau', {
   groups = {cracky=3},
   drawtype = 'nodebox',
   tiles = {
-    'bureauB.png',
-    'bureauC.png',
-    'bureauA.png',
-    'bureauA.png',
-    'bureauA.png',
-    'bureauA.png',
+    'bureau_bureauB.png',
+    'bureau_bureauC.png',
+    'bureau_bureauA.png',
+    'bureau_bureauA.png',
+    'bureau_bureauA.png',
+    'bureau_bureauA.png',
   },
   selection_box = {
     type = 'fixed',

@@ -9,7 +9,7 @@ minetest.register_node("decoblocs:blocpierre",{
   groups = {cracky=3},
   drawtype = 'nodebox',
   tiles = {
-   'blocstone.png',
+   'decoblocs_blocstone.png',
   },
 
 selection_box = {
@@ -33,7 +33,7 @@ minetest.register_node("decoblocs:caisseBois1",{
   groups = {cracky=3},
   drawtype = 'nodebox',
   tiles = {
-   'cbois1.png',
+   'decoblocs_cbois1.png',
   },
 
 selection_box = {
@@ -57,7 +57,7 @@ minetest.register_node("decoblocs:caisseBois2",{
   groups = {cracky=3},
   drawtype = 'nodebox',
   tiles = {
-   'cbois2.png',
+   'decoblocs_cbois2.png',
   },
 
 selection_box = {
@@ -81,7 +81,7 @@ minetest.register_node("decoblocs:pierretaille",{
   groups = {cracky=3},
   drawtype = 'nodebox',
   tiles = {
-   'pierretaille.png',
+   'decoblocs_pierretaille.png',
   },
 
 selection_box = {
@@ -105,7 +105,7 @@ minetest.register_node("decoblocs:kubik",{
   groups = {cracky=3},
   drawtype = 'nodebox',
   tiles = {
-   'pierre.png',
+   'decoblocs_pierre.png',
   },
 
 selection_box = {
@@ -135,7 +135,7 @@ minetest.register_node("decoblocs:konvex",{
   groups = {cracky=3},
   drawtype = 'nodebox',
   tiles = {
-   'pierre.png',
+   'decoblocs_pierre.png',
   },
 
 selection_box = {
@@ -170,7 +170,7 @@ minetest.register_node("decoblocs:blocmosa",{
   groups = {cracky=3},
   drawtype = 'nodebox',
   tiles = {
-   'mosa.png',
+   'decoblocs_mosa.png',
   },
 
 selection_box = {
