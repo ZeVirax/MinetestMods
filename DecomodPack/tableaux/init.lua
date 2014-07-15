@@ -381,18 +381,70 @@ tableau({
 	border = false
 })
 
+--=====================--
+-- Panneau spécial SRC --
+--=====================--
+
+minetest.register_node("tableaux:panneauSRC",{
+  description = 'Panneau SRC',
+  paramtype = 'light',
+  paramtype2 = 'facedir',
+  is_ground_content = true,
+  groups = {cracky=3},
+  on_construct = function(pos)
+		--local n = minetest.get_node(pos)
+		local meta = minetest.get_meta(pos)
+		meta:set_string("formspec", "field[text;;${text}]")
+		meta:set_string("infotext", "\"\"")
+	end,
+	on_receive_fields = function(pos, formname, fields, sender)
+		--print("Sign at "..minetest.pos_to_string(pos).." got "..dump(fields))
+		if minetest.is_protected(pos, sender:get_player_name()) then
+			minetest.record_protection_violation(pos, sender:get_player_name())
+			return
+		end
+		local meta = minetest.get_meta(pos)
+		fields.text = fields.text or ""
+		minetest.log("action", (sender:get_player_name() or "").." wrote \""..fields.text..
+				"\" to sign at "..minetest.pos_to_string(pos))
+		meta:set_string("text", fields.text)
+		meta:set_string("infotext", '"'..fields.text..'"')
+	end,
+
+  drawtype = 'nodebox',
+  tiles = {
+		'mapmonde_bord.png',
+		'mapmonde_bord.png',
+		'mapmonde_bord.png',
+		'mapmonde_bord.png',
+		'tableau_fond.png',
+		'panneauSRC.png',
+	},
+
+
+selection_box = {
+    type = 'fixed',
+    fixed = { -0.5, -0.5, 0.5, 0.5, 0.5, 0.375 }
+  },
+
+	node_box = {
+		type = "fixed",
+		fixed = {
+		{-0.5,-0.5,0.375,0.5,-0.375,0.5}, 
+		{-0.5,0.375,0.375,0.5,0.5,0.5}, 
+		{0.375,-0.375,0.375,0.5,0.375,0.5}, 
+		{-0.5,-0.375,0.375,-0.375,0.375,0.5}, 
+		{-0.375,-0.375,0.375,0.375,0.375,0.5}, 
+
+		}
+	}
+})
+
+
 --
 -- Craft
 --
 
-minetest.register_craft({
-	output = "tableaux:tableau",
-	recipe = {
-		{"group:stick", "group:stick", "group:stick"},
-		{"group:stick", "wool:white", "group:stick"},
-		{"group:stick", "group:stick", "group:stick"}
-	}
-})
 
 
 -- http://steinheim.vraiforum.com/index.php

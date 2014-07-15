@@ -366,7 +366,7 @@ minetest.register_node("modcup:medaille",{
 
 selection_box = {
     type = 'fixed',
-    fixed = { -1/3, -1/3, -1/3, 1/3, 1/3, 1/3 }
+    fixed = {-0.125,-0.5,-0.0625,0.125,-0.1875,0}
   },
 
 	node_box = {

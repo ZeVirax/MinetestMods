@@ -618,3 +618,20 @@ minetest.register_craft({
 	}	
 })
 
+minetest.register_craft({
+	output = "tableaux:tableau",
+	recipe = {
+		{"group:stick", "group:stick", "group:stick"},
+		{"group:stick", "wool:white", "group:stick"},
+		{"group:stick", "group:stick", "group:stick"}
+	}
+})
+
+minetest.register_craft({
+	output = "tableaux:panneauSRC",
+	recipe = {
+		{"group:stick", "group:stick", "group:stick"},
+		{"group:stick", "wool:red", "group:stick"},
+		{"group:stick", "group:stick", "group:stick"}
+	}
+})
