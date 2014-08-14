@@ -8,7 +8,7 @@ end
 
 --REGISTER NODE
 
-minetest.register_node('computer:pcsteinheim', {
+minetest.register_node('ordinateur:pcsteinheim', {
   description = 'PC Steinheim OS',
   paramtype = 'light',
   paramtype2 = 'facedir',

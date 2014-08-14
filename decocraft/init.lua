@@ -8,7 +8,7 @@ minetest.register_craft({
 })
 
 minetest.register_craft({
-	output = "computer:pcsteinheim",
+	output = "ordinateur:pcsteinheim",
 	recipe = {
 		{"decocraftitems:coin_acier", "decocraftitems:plaque_acier", "decocraftitems:coin_acier"},
 		{"decocraftitems:glass_screen", "decocraftitems:carte_mere", "decocraftitems:OperatingSystem"},
