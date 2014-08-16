@@ -522,99 +522,99 @@ minetest.register_craft({
 minetest.register_craft({
 	output = 'colonne:colonne_bois',
 	recipe = {
-		{'', 'default:wood', ''},
-		{'', 'default:wood', ''},
-		{'', 'default:wood', ''},
+		{'default:wood'},
+		{'default:wood'},
+		{'default:wood'},
 	}	
 })
 
 minetest.register_craft({
 	output = 'colonne:colonne_cobble',
 	recipe = {
-		{'', 'default:cobble', ''},
-		{'', 'default:cobble', ''},
-		{'', 'default:cobble', ''},
+		{'default:cobble'},
+		{'default:cobble'},
+		{'default:cobble'},
 	}	
 })
 
 minetest.register_craft({
 	output = 'colonne:colonne_pierre',
 	recipe = {
-		{'', 'default:stone', ''},
-		{'', 'default:stone', ''},
-		{'', 'default:stone', ''},
+		{'default:stone'},
+		{'default:stone'},
+		{'default:stone'},
 	}	
 })
 
 minetest.register_craft({
 	output = 'colonne:colonne_fer',
 	recipe = {
-		{'', 'default:steelblock', ''},
-		{'', 'default:steelblock', ''},
-		{'', 'default:steelblock', ''},
+		{'default:steelblock'},
+		{'default:steelblock'},
+		{'default:steelblock'},
 	}	
 })
 
 minetest.register_craft({
 	output = 'colonne:colonne_junglewood',
 	recipe = {
-		{'', 'default:junglewood', ''},
-		{'', 'default:junglewood', ''},
-		{'', 'default:junglewood', ''},
+		{'default:junglewood'},
+		{'default:junglewood'},
+		{'default:junglewood'},
 	}	
 })
 
 minetest.register_craft({
 	output = 'colonne:colonne_obsidian',
 	recipe = {
-		{'', 'default:obsidian', ''},
-		{'', 'default:obsidian', ''},
-		{'', 'default:obsidian', ''},
+		{'default:obsidian'},
+		{'default:obsidian'},
+		{'default:obsidian'},
 	}	
 })
 
 minetest.register_craft({
 	output = 'colonne:colonne_stone_brick',
 	recipe = {
-		{'', 'default:stone_brick', ''},
-		{'', 'default:stone_brick', ''},
-		{'', 'default:stone_brick', ''},
+		{'default:stone_brick'},
+		{'default:stone_brick'},
+		{'default:stone_brick'},
 	}	
 })
 
 minetest.register_craft({
 	output = 'colonne:colonne_sandstone',
 	recipe = {
-		{'', 'default:sandstone', ''},
-		{'', 'default:sandstone', ''},
-		{'', 'default:sandstone', ''},
+		{'default:sandstone'},
+		{'default:sandstone'},
+		{'default:sandstone'},
 	}	
 })
 
 minetest.register_craft({
 	output = 'colonne:colonne_sandstone_brick',
 	recipe = {
-		{'', 'default:sandstone_brick', ''},
-		{'', 'default:sandstone_brick', ''},
-		{'', 'default:sandstone_brick', ''},
+		{'default:sandstone_brick'},
+		{'default:sandstone_brick'},
+		{'default:sandstone_brick'},
 	}	
 })
 
 minetest.register_craft({
 	output = 'colonne:colonne_desert_stone_brick',
 	recipe = {
-		{'', 'default:desert_stone_brick', ''},
-		{'', 'default:desert_stone_brick', ''},
-		{'', 'default:desert_stone_brick', ''},
+		{'default:desert_stone_brick'},
+		{'default:desert_stone_brick'},
+		{'default:desert_stone_brick'},
 	}	
 })
 
 minetest.register_craft({
 	output = 'colonne:colonne_desert_stone',
 	recipe = {
-		{'', 'default:desert_stone', ''},
-		{'', 'default:desert_stone', ''},
-		{'', 'default:desert_stone', ''},
+		{'default:desert_stone'},
+		{'default:desert_stone'},
+		{'default:desert_stone'},
 	}	
 })
 
