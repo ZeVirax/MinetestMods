@@ -98,7 +98,7 @@ minetest.register_craft({
 	},
 })
 
-
+--[[
 minetest.register_craft({
 	output = "decoblocs:pierretaille",
 	recipe = {
@@ -108,7 +108,7 @@ minetest.register_craft({
     {"default:pick_mese", "default:pick_mese"},
   },
 })
-
+--]]
 minetest.register_craft({
 	output = "decoblocs:blocpierre",
 	type = "cooking",
