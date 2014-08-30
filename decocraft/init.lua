@@ -576,9 +576,9 @@ minetest.register_craft({
 minetest.register_craft({
 	output = 'colonne:colonne_stone_brick',
 	recipe = {
-		{'default:stone_brick'},
-		{'default:stone_brick'},
-		{'default:stone_brick'},
+		{'default:stonebrick'},
+		{'default:stonebrick'},
+		{'default:stonebrick'},
 	}	
 })
 
@@ -594,18 +594,18 @@ minetest.register_craft({
 minetest.register_craft({
 	output = 'colonne:colonne_sandstone_brick',
 	recipe = {
-		{'default:sandstone_brick'},
-		{'default:sandstone_brick'},
-		{'default:sandstone_brick'},
+		{'default:sandstonebrick'},
+		{'default:sandstonebrick'},
+		{'default:sandstonebrick'},
 	}	
 })
 
 minetest.register_craft({
 	output = 'colonne:colonne_desert_stone_brick',
 	recipe = {
-		{'default:desert_stone_brick'},
-		{'default:desert_stone_brick'},
-		{'default:desert_stone_brick'},
+		{'default:desert_stonebrick'},
+		{'default:desert_stonebrick'},
+		{'default:desert_stonebrick'},
 	}	
 })
 
